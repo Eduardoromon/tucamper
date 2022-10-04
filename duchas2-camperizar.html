@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tucamper</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style>
+<link rel="stylesheet" href="css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+</head>
+
+<body id="accesorios" onload="calculateCartItems()">
+
+<!--aqui empieza el header-->
+
+<header>
+  <div class="siguenos">
+    <div class="item-l"><strong>Siguenos:</strong></div>
+    <div class="item-r">comparte experiencias con nosotros</div>
+    <ul>
+      <li class="face"><a href="https://www.facebook.com/eduardoromongarcia/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+      <li class="insta"><a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+  </div>
+  <div class="logo-buscar-carro">
+    <div><img src="img-html/tucamper.png" alt="logo" width="250" class="logo"/></div>
+    <input type="text" id="item-buscador" autocomplete="off" placeholder=" Buscador">
+    <div class="item-carrito"><a href="formulario1.html"><i class="fas fa-shopping-cart"></i></a><span class="cart-badge">1</span></div>
+  </div>
+  <ul id="contenido-buscador">
+    <li><a href="muebles-camperizar.html">Muebles</a></li>
+    <li><a href="neveras-camperizar.html">Neveras</a></li>
+    <li><a href="cocinas-camperizar.html">Cocinas</a></li>
+    <li><a href="duchas-camperizar.html">Duchas</a></li>
+    <li><a href="camperizar-barato-oferta.html">Oferta</a></li>
+  </ul>
+  <div id="cover"></div>
+</header>
+<div class="shopping-cart-items shoppingCartItemsContainer"></div>
+
+<!--aqui empieza el main-->
+
+<main id="muebles2">
+  <div class="left"><a href="duchas-camperizar.html"><i class="fas fa-angle-left"></i></a></div>
+  <div class="item contenedor"> <img class="item-img-carrito" src="img-html/img-ducha.jpg" alt="ducha-camper">
+    <h3 class="item-titulo">Ducha portatil</h3>
+    <span class="item-id">ducha-1367</span>
+    <p>Gatillo de ducha con mango ergonómico
+      Apertura del botón para una pulverización
+      continua y contenedor de 7 L.</p>
+    <br>
+    <h4 class="item-precio">Precio<span>32.50</span> € IVA incluido.</h4>
+    <button class="button agregar" name="button">Añadir al carrito</button>
+  </div>
+  <div class="item contenedor">
+    <div class="i2"><img class="item-img-carrito" src="img-html/img-ducha2.jpg" alt="ducha-camper"/></div>
+    <h3 class="item-titulo">Ducha portatil</h3>
+    <span class="item-id">ducha-1368</span>
+    <p>Deposito de agua de 20 L. con bomba 
+      sumergible de 12 L. manguera de 2 m.
+      cable de 4m. con enchufe a 12V.</p>
+    <br>
+    <h4 class="item-precio">Precio<span>50.69</span> € IVA incluido.</h4>
+    <button class="button agregar" name="button">Añadir al carrito</button>
+  </div>
+</main>
+<div class="muebles-responsive">
+  <div class="left-responsive"><a href="accesorios-camperizar.html"><i class="fas fa-angle-left"></i></a></div>
+  <div class="contenedor-responsive">
+    <div class="img1"><img src="img-html/img-ducha.jpg" alt="mueble-camper"></div>
+    <div class="img2"><img src="img-html/img-ducha2.jpg" alt="mueble-camper"></div>
+  </div>
+  <div class="contenedor-responsive2">
+    <div class="item contenedor-r"> <img class="item-img-carrito" src="img-html/img-ducha.jpg" alt="ducha-camper">
+      <h3 class="item-titulo">Ducha portatil</h3>
+      <span class="item-id">ducha-1367</span>
+      <p>Gatillo de ducha con mango ergonómico
+        Apertura del botón para una pulverización
+        continua y contenedor de 7 L.</p>
+      <h4 class="item-precio">Precio<span>32.50</span> € IVA incluido.</h4>
+      <button class="button-responsive agregar">Añadir al carrito</button>
+    </div>
+    <div class="item contenedor-r">
+      <div class="i2"><img class="item-img-carrito" src="img-html/img-ducha2.jpg" alt="ducha-camper"/></div>
+      <h3 class="item-titulo">Ducha portatil</h3>
+      <span class="item-id">ducha-1368</span>
+      <p>Deposito de agua de 20 L. con bomba 
+        sumergible de 12 L. manguera de 2 m.
+        cable de 4m. con enchufe a 12V.</p>
+      <h4 class="item-precio">Precio<span>50.69</span> € IVA incluido.</h4>
+      <button class="button-responsive agregar">Añadir al carrito</button>
+    </div>
+    </div>
+</div>
+
+<!-- aqui empieza el footer-->
+
+<footer class="footer">
+  <div class="contactenos"><strong>Contactenos:</strong></div>
+  <div class="datos-footer">
+    <p class="contac"><i class="fas fa-industry"></i>calle alcolea 7</p>
+    <p class="contac"><i class="fas fa-mobile-alt"></i>(+34) 610743502</p>
+    <p class="contac"><i class="fas fa-envelope"></i>eduardoromon@hotmail.com</p>
+  </div>
+</footer>
+<script src="archivo.js"></script> 
+<script src="carritotucamper.js"></script>
+</body>
+</html>

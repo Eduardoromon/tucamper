@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tucamper</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style>
+<link rel="stylesheet" href="css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+</head>
+
+<body>
+
+<!--aqui empieza el header-->
+
+<header>
+  <div class="logo-buscar-carro">
+    <div><img src="img-html/tucamper.png" alt="logo" width="250" class="logo"/></div>
+  </div>
+</header>
+
+<!-------aqui empieza el main--------->
+
+<main id="formulario2">
+  <div class="atras"><a href="formulario1.html"><i class="fas fa-angle-left"></i></a></div>
+  <form class="datos1" method="post" autocomplete="off">
+    <div class="datos">
+      <label>Pais:</label>
+      <select id="pais">
+        <option vaule="01">España</option>
+        <option vaule="02">Portugal</option>
+        <option vaule="03">Francia</option>
+      </select>
+    </div>
+    <div class="datos">
+      <label>Nombre:</label>
+      <input type="text" class="input" id="nombre" title="Escribe tu nombre" required>
+    </div>
+    <div class="datos">
+      <label>Apellidos:</label>
+      <input type="text" class="input" id="apellidos" title="Escribe tus apellidos" required>
+    </div>
+    <div class="datos">
+      <label>Direccion:</label>
+      <input type="text" class="input" id="direccion" title="Es necesario que escribas tu dirreccion" required>
+    </div>
+    <div class="datos">
+      <label>Codigo postal:</label>
+      <input type="number" id="codigo-postal" title="Escribe tu codigo postal" required>
+    </div>
+    <div class="datos">
+      <label>Ciudad:</label>
+      <input type="text" id="ciudad" title="Escribe tu ciudad" required>
+    </div>
+    <div class="datos">
+      <label>Provincia:</label>
+      <input type="text" id="provincia" title="Escribe tu provincia" required>
+    </div>
+    <div class="datos">
+      <label>Telefono:</label>
+      <input type="tel" id="telefono" title="Escribe tu telefono" required>
+    </div>
+    <div class="datos">
+      <label>Correo electronico:</label>
+      <input type="email" class="input" id="correo" title="Escribe tu correo electronico" required>
+    </div>
+  </form>
+  <div class="div-botonf2">
+	  <button class="boton-f2-enviar" id="boton-enviar">enviar</button> 
+	  <a href="formulario3.html"><button class="boton-f2" id="boton-siguiente">Siguiente</button></a>
+  </div>
+	
+</main>
+
+<!-- aqui empieza el footer-->
+
+<footer class="footer">
+  <div class="contactenos"><strong>Contactenos:</strong></div>
+  <div class="datos-footer">
+    <p class="contac"><i class="fas fa-industry"></i>calle alcolea 7</p>
+    <p class="contac"><i class="fas fa-mobile-alt"></i>(+34) 610743502</p>
+    <p class="contac"><i class="fas fa-envelope"></i>eduardoromon@hotmail.com</p>
+  </div>
+</footer>
+<script src="archivo.js"></script> 
+<script src="formulario.js"></script>
+</body>
+</html>

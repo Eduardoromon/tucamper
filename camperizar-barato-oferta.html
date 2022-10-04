@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tucamper</title>
+<meta name="Description" content="Descubre la solucion sin homologar, facil y barata de camperizar tu furgoneta">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style>
+<link rel="stylesheet" href="css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+</head>
+
+<body onload="calculateCartItems()">
+
+<!--aqui empieza el header-->
+
+<header>
+  <div class="siguenos">
+    <div class="item-l"><strong>Siguenos:</strong></div>
+    <div class="item-r">comparte experiencias con nosotros</div>
+    <ul>
+      <li class="face"><a href="https://www.facebook.com/eduardoromongarcia/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+      <li class="insta"><a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+  </div>
+  <div class="logo-buscar-carro">
+    <div><img src="img-html/tucamper.png" alt="logo" width="250" class="logo"/></div>
+    <input type="text" id="item-buscador" autocomplete="off" placeholder=" Buscador">
+    <div class="item-carrito"><a href="formulario1.html"><i class="fas fa-shopping-cart"></i></a><span class="cart-badge">1</span></div>
+  </div>
+  <ul id="contenido-buscador">
+    <li><a href="muebles-camperizar.html">Muebles</a></li>
+    <li><a href="neveras-camperizar.html">Neveras</a></li>
+    <li><a href="cocinas-camperizar.html">Cocinas</a></li>
+    <li><a href="duchas-camperizar.html">Duchas</a></li>
+    <li><a href="camperizar-barato-oferta.html">Oferta</a></li>
+  </ul>
+  <div id="cover"></div>
+</header>
+
+<!--aqui empieza el main-->
+
+<main>
+  <div class="pag-oferta">
+    <div class="left-oferta"><a href="accesorios-camperizar.html"><i class="fas fa-angle-left"></i></a></div>
+    <div class="contenedor-oferta">
+      <div class="c1"><img src="img-html/img-mueble2.jpg" alt="mueble-camper">
+        <p>Kit camper plus</p>
+      </div>
+      <div class="c3"><img src="img-html/img-cocina.jpg" alt="cocina-camper">
+        <p>Cocina gas</p>
+      </div>
+      <div class="c2"><img src="img-html/img-nevera2.jpg" alt="nevera-camper">
+        <p>Nevera compresor</p>
+      </div>
+      <div class="c4"><img src="img-html/img-ducha.jpg" alt="ducha-camper">
+        <p>Ducha portatil</p>
+      </div>
+    </div>
+    <div class="item contenedor-oferta2"><img class="item-img-carrito" src="img-html/img-pag-oferta.jpg" alt="cocina-camper"> <span class="item-id">cocina-1376</span>
+      <h1 class="item-titulo">OFERTA</h1>
+      <p>PVP</p>
+      <div class="div_precio"><h2 class="item-precio"><span>790.90</span></h2></div>
+      <h3>IVA incluido</h3>
+      <div class="boton-pag-oferta">
+      <button class="button-oferta agregar" name="button">Añadir al carrito</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- aqui empieza el footer-->
+
+<footer class="footer">
+  <div class="contactenos"><strong>Contactenos:</strong></div>
+  <div class="datos-footer">
+    <p class="contac"><i class="fas fa-industry"></i>calle alcolea 7</p>
+    <p class="contac"><i class="fas fa-mobile-alt"></i>(+34) 610743502</p>
+    <p class="contac"><i class="fas fa-envelope"></i>eduardoromon@hotmail.com</p>
+  </div>
+</footer>
+<script src="archivo.js"></script> 
+<script src="carritotucamper.js"></script>
+</body>
+</html>
