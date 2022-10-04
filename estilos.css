@@ -1036,7 +1036,7 @@ span:hover {
   }
   /*-----media queries formulario2------*/
   .datos1 {
-    width: 80%;
+    width: 90%;
     height: 400px;
   }
   .div-botonf2 {
@@ -1218,7 +1218,7 @@ span:hover {
   /*-----media queries formulario2*/
   .datos1 {
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     height: 510px;
   }
