@@ -1041,13 +1041,14 @@ span:hover {
   .div-botonf2 {
     width: 40%;
     height: 30px;
+    margin-top: 20px;
     display: flex;
     margin-left: 50%;
     transform: translate(-50%)
   }
   .atras i {
     position: absolute;
-    top: 120px;
+    top: 130px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1250,11 +1251,11 @@ span:hover {
     width: 60%;
   }
   .boton-f2 {
-    top: 400px;
+    top: 380px;
     left: 120px;
   }
   .atras i {
-    top: 220px;
+    top: 240px;
   }
   /*-----media queries formulario3-----*/
   #formulario3 {
